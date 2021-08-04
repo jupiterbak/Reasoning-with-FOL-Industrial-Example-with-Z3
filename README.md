@@ -1,4 +1,4 @@
-Executble example
+Executable example
 ===================
 
 This is a Z3 Python 2.7 implementation of the application example of the chapter "Reasoning with First-Order Logic"
