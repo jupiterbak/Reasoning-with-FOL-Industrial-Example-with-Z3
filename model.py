@@ -46,7 +46,7 @@ model_axioms.append(ForAll([p1, p2, p3], Implies(And(subProcess(p1, p2), subProc
 model_axioms.append(ForAll([p1, p2, p3],
                            Implies(And(subProcess(p1, p2), subProcess(p1, p3)),
                                    Or(subProcess(p2, p3), subProcess(p3, p2)))))
-rootProcess = Const('ROOT-PROCESS', Process)
+rootProcess = Const('ROOT_PROCESS', Process)
 model_axioms.append(ForAll([p], subProcess(p, rootProcess)))
 # Define Process InsertingDIN8580
 InsertingDIN8580 = Const('InsertingDIN8580', Process)
