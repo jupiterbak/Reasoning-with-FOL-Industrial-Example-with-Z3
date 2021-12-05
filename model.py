@@ -15,7 +15,6 @@ def print_to_file(dst, msg):
         f.write(msg)
         f.close()
 
-
 def configure_solver():
     _solver = Solver()
     _solver.set("proof", True)
